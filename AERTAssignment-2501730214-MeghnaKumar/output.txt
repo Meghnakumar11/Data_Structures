@@ -1,0 +1,53 @@
+PS C:\Users\Hp\Desktop\dsa\AERTAssignment-2501730214-MeghnaKumar> & C:\Users\Hp\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Hp/Desktop/dsa/AERTAssignment-2501730214-MeghnaKumar/AERT_toolkit.py
+Testing Stack ADT:
+Stack size: 2      
+Top element: 20    
+Popped element: 20 
+Stack empty? False 
+
+Testing Factorial: 
+factorial of 0 is 1
+factorial of 1 is 1
+factorial of 5 is 120
+factorial of 10 is 3628800
+Testing Fibonacci:
+
+Fibonacci(5)
+Navive Result: 5
+Naive calls: 15
+Memoized Result: 5
+Memoized calls: 9
+
+Fibonacci(10)
+Navive Result: 55
+Naive calls: 177
+Memoized Result: 55
+Memoized calls: 19
+
+Fibonacci(20)
+Navive Result: 6765
+Naive calls: 21891
+Memoized Result: 6765
+Memoized calls: 39
+
+Fibonacci(30)
+Navive Result: 832040
+Naive calls: 2692537
+Memoized Result: 832040
+Memoized calls: 59
+
+Testing Tower of Hanoi(n=3):
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+Testing Binary Search:
+Search 3: Index= 2
+Search 6: Index= 5
+Search 7: Index= -1
+Search in empty array: -1
+PS C:\Users\Hp\Desktop\dsa\AERTAssignment-2501730214-MeghnaKumar> 
