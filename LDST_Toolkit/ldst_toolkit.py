@@ -30,9 +30,7 @@ class DynamicArray:
         print("Array:", self.arr[:self.size])
 
 
-# =========================
 # Singly Linked List
-# =========================
 class Node:
     def __init__(self, data):
         self.data = data
@@ -92,9 +90,8 @@ class SinglyLinkedList:
         print("List:", arr)
 
 
-# =========================
+
 # Doubly Linked List
-# =========================
 class DoubleNode:
     def __init__(self, data):
         self.data = data
@@ -176,9 +173,8 @@ class DoublyLinkedList:
         print("List:", arr)
 
 
-# =========================
+
 # Stack using SLL
-# =========================
 class Stack:
     def __init__(self):
         self.stackLL = SinglyLinkedList()
@@ -203,9 +199,7 @@ class Stack:
         return self.stackLL.head.data
 
 
-# =========================
 # Queue using SLL Node
-# =========================
 class Queue:
     def __init__(self):
         self.head = None
@@ -240,9 +234,8 @@ class Queue:
         return self.head.data
 
 
-# =========================
+
 # Balanced Parentheses
-# =========================
 def is_balanced(expr):
     stack = Stack()
     pairs = {')': '(', '}': '{', ']': '['}
@@ -262,9 +255,8 @@ def is_balanced(expr):
     return stack.size == 0
 
 
-# =========================
+
 # MAIN TEST CASES
-# =========================
 if __name__ == "__main__":
 
     print("=== Dynamic Array ===")
